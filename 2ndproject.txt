@@ -3,7 +3,7 @@ print("Welcome to Number Guessing Game!")
 number = random.randint(1, 100)
 chances = 4  
 for i in range(chances):
-    guess = int(input("Enter your guess (1-50): "))
+    guess = int(input("Enter your guess (1-100): "))
 
     if guess == number:
         print(" Congratulations! You guessed the correct number.")
